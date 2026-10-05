@@ -1,0 +1,9 @@
+
+# Private build tooling - local only
+CLAUDE.md
+.claude/
+prompts/
+scripts/
+docs/framework.md
+docs/PROGRESS.md
+docs/product-brief.md
