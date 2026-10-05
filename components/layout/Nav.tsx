@@ -22,7 +22,10 @@ export function Nav() {
         className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3"
       >
         <Link href="/" className="font-semibold tracking-tight">
-          Irish Pension Flows
+          <span className="block">Where the Money Goes</span>
+          <span className="block text-xs font-normal tracking-normal text-muted-foreground">
+            Irish auto-enrolment, followed through the investment system
+          </span>
         </Link>
         <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
           {LINKS.map(({ href, label }) => {

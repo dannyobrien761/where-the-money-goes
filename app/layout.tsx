@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Irish Pension Flows",
-    template: "%s · Irish Pension Flows",
+    default: "Where the Money Goes",
+    template: "%s · Where the Money Goes",
   },
   description:
-    "How much money MyFutureFund auto-enrolment pushes into the investment system, where it could be invested, and how much is exposed to the Irish economy.",
+    "How Ireland's auto-enrolment savings flow into the investment system — and how much stays in Ireland.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
