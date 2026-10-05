@@ -19,7 +19,7 @@ Charts:     Recharts (including Sankey)
 Tests:      Vitest
 Hosting:    Vercel
 ```
-Use the latest stable Next.js at scaffold time and record the exact versions in the table below after Prompt 01. Do not upgrade major versions during Phase 1.
+Use the latest stable Next.js at scaffold time and record the exact versions in the table below after scaffolding. Do not upgrade major versions during Phase 1.
 
 ### 3. The model runs client-side as pure TypeScript
 The engines are small and deterministic. Running them in the browser makes sliders respond instantly, removes server cost, and keeps the model unit-testable in isolation. Supabase supplies inputs only.
@@ -41,12 +41,16 @@ The pipeline also writes `/public/snapshot.json`. If Supabase is unavailable, th
 | Second chart library (D3, ECharts) | Recharts covers every chart needed, including Sankey |
 | Supabase Auth | No user accounts in scope |
 
-## Locked versions (fill in after Prompt 01)
+## Locked versions (recorded at scaffold, 5 October 2026)
 | Package | Version |
 |---|---|
-| next | |
-| react | |
-| recharts | |
-| @supabase/supabase-js | |
-| vitest | |
-| python | |
+| next | 16.3.8 |
+| react | 19.2.8 |
+| recharts | 3.10.1 |
+| @supabase/supabase-js | 2.117.2 |
+| vitest | 5.0.3 |
+| python | 3.14.4 (local; pipeline requires 3.11+) |
+| tailwindcss | 4.3.3 |
+| typescript | 5.9.3 |
+| shadcn/ui | 4.21.1 (style `base-nova`, built on Base UI) |
+| node / pnpm | 24.14.1 / 12.9.1 |
